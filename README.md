@@ -14,6 +14,10 @@ Analisis dilakukan melalui beberapa tahapan otomatis menggunakan Python dan libr
 4.  **Klasifikasi Topik**: Setiap ringkasan artikel diklasifikasikan ke dalam satu atau lebih kategori yang relevan (Kesehatan Lansia, Kebijakan Pemerintah, Ekonomi, Sosial Budaya, Inovasi Teknologi, Lainnya) beserta penjelasan singkat.
 5.  **Identifikasi Pemangku Kepentingan**: Model bahasa besar digunakan untuk mengekstraksi pemangku kepentingan yang disebutkan dalam artikel, mengklasifikasikan mereka berdasarkan kategori organisasi (Pemerintah Pusat, Pemerintah Daerah, Sektor Swasta, Akademisi & Peneliti, Organisasi Masyarakat Sipil & Komunitas), serta mengidentifikasi fokus utama, rencana/inisiatif, dan masalah yang mereka tangani.
 
+## Raw Dataset Link
+https://drive.google.com/file/d/1L2I3pVJoDRwE-ZasPywM1jiJr4CkwLdQ/view?usp=sharing
+
+
 ## Temuan Utama
 
 Berdasarkan analisis artikel:
