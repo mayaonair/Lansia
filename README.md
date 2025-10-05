@@ -6,9 +6,9 @@ Tujuan proyek ini melakukan analisis terhadap kumpulan artikel berita terkait is
 
 ## Metodologi
 
-Analisis dilakukan melalui beberapa tahapan otomatis menggunakan Python dan library `langchain_community` serta model dari Replicate:
+Analisis dilakukan melalui beberapa tahapan manual dan otomatis menggunakan Python dan library `langchain_community` serta model dari Replicate:
 
-1.  **Pengumpulan Data**: Data artikel dikumpulkan dalam format CSV.
+1.  **Pengumpulan Data**: Scrapping data artikel dan dikumpulkan dalam format CSV.
 2.  **Pemuatan Data**: Artikel dimuat ke dalam Pandas DataFrame.
 3.  **Ringkasan Artikel**: Model bahasa besar digunakan untuk membuat ringkasan singkat (1-3 kalimat) untuk setiap artikel, fokus pada temuan atau argumen utama.
 4.  **Klasifikasi Topik**: Setiap ringkasan artikel diklasifikasikan ke dalam satu atau lebih kategori yang relevan (Kesehatan Lansia, Kebijakan Pemerintah, Ekonomi, Sosial Budaya, Inovasi Teknologi, Lainnya) beserta penjelasan singkat.
